@@ -11,7 +11,10 @@
 -- >    withLog l yourFunction
 --
 module System.Log.Syslog (
-    syslog
+    SyslogMessage(..),
+    syslogMsg,
+    toSyslog, toSyslog_,
+    syslog, syslog_
     ) where
 
 import System.Posix.Syslog (Option(..), Facility(..))
