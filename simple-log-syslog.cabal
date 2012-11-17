@@ -7,6 +7,7 @@ license:             BSD3
 license-file:        LICENSE
 author:              Alexandr `voidex` Ruchkin
 maintainer:          voidex@live.com
+Category:             Logging
 build-type:          Simple
 cabal-version:       >=1.8
 
