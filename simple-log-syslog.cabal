@@ -1,5 +1,5 @@
 name:                simple-log-syslog
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            Syslog backend for simple-log
 -- description:         
 homepage:            http://github.com/mvoidex/simple-log-syslog

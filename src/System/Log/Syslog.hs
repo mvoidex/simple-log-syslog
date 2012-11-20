@@ -14,7 +14,9 @@ module System.Log.Syslog (
     SyslogMessage(..),
     syslogMsg,
     toSyslog, toSyslog_,
-    syslog, syslog_
+    syslog, syslog_,
+
+    Option(..), Facility(..)
     ) where
 
 import System.Posix.Syslog (Option(..), Facility(..))
