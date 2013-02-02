@@ -10,7 +10,7 @@
 -- >    l <- newLog (fileCfg "log.cfg" 60) [syslog "name"]
 -- >    withLog l yourFunction
 --
-module System.Log.Syslog (
+module System.Log.Simple.Syslog (
     SyslogMessage(..),
     syslogMsg,
     toSyslog, toSyslog_,
@@ -22,7 +22,7 @@ module System.Log.Syslog (
 import System.Posix.Syslog (Option(..), Facility(..))
 import qualified System.Posix.Syslog as Syslog
 import qualified Data.Text as T
-import System.Log.Base
+import System.Log.Simple.Base
 
 data SyslogMessage = SyslogMessage {
     syslogPriority :: Syslog.Priority,

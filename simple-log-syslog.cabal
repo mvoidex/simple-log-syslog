@@ -19,4 +19,4 @@ library
     simple-log == 0.3.*,
     hsyslog == 1.*
   exposed-modules:
-    System.Log.Syslog
+    System.Log.Simple.Syslog
