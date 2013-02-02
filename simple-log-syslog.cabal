@@ -1,5 +1,5 @@
 name:                simple-log-syslog
-version:             0.1.1.0
+version:             0.2.0
 synopsis:            Syslog backend for simple-log
 -- description:         
 homepage:            http://github.com/mvoidex/simple-log-syslog
@@ -16,7 +16,7 @@ library
   build-depends:
     base >= 4.6 && < 6,
     text == 0.11.*,
-    simple-log == 0.2.*,
+    simple-log == 0.3.*,
     hsyslog == 1.*
   exposed-modules:
     System.Log.Syslog
